@@ -1,0 +1,123 @@
+body {
+    background-color: #f8eff1;
+  }
+
+  .titulos {
+    color: #24A19C;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+  }
+  
+  .titulares {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .main {
+    margin-bottom: 100px;
+  }
+  
+  img {
+    object-fit: cover;
+  }
+  
+  /* header */
+  .header {
+    height: 50px;
+    margin-top: 0;
+  }
+  
+  .navegacion ul {
+    List-style: none;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+  }
+  
+  .navegacion ul li {
+    text-decoration: none;
+    color: #24A19C;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 50px;
+  }
+  
+  .bakery {
+    margin: 10px 20px 10px 20px;
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+  }
+  
+  .menu {
+    padding: 0px 30px 20px 10px;
+    display: inline-block;
+  }  
+
+  
+/* body */
+
+
+  #contenedorCombos img {
+    height: 300px;
+    width: 200px;
+    display: block;
+    margin: auto;
+  }
+  #contenedorCombos .listaCombos {
+    list-style-type: disc;
+  }
+
+  .card-deck {
+    margin: 20px 30px 20px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .card {
+    background-color: #f8eff1;
+  }
+
+  /* footer*/
+.footer {
+    display: flex;
+    background-color: #f8eff1;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  
+  .footer .footerDirec {
+    margin-right: auto;
+    margin: 20px 5px 50px 5px;
+  }
+  
+  .footer .footerRedes {
+    justify-content: flex-end;
+    margin: 20px 20px 20px 20px;
+  }
+  
+  .footer .insta {
+    margin: 10px 20px 10px 20px;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .footer .feis {
+    margin: 10px 20px 10px 20px;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .footer .email {
+    margin: 10px 20px 10px 20px;
+    width: 25px;
+    height: 25px;
+  }
+  
